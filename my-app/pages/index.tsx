@@ -29,10 +29,10 @@ export default function Portfolio() {
             <Link href="#contact" className="hover:text-orange-500 transition-colors">
               Contacts
             </Link>
-            <Link href="#/experience" className="hover:text-orange-500 transition-colors">
+            <Link href="/experience" className="hover:text-orange-500 transition-colors">
               Experience
             </Link>
-            <Link href="#contact" className="hover:text-orange-500 transition-colors">
+            <Link href="/academic"  className="hover:text-orange-500 transition-colors">
               Academic level
             </Link>
           </div>
