@@ -83,12 +83,14 @@ export default function Portfolio() {
           transition={{ duration: 0.7, delay: 0.8 }}
         >
           <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3">Got a project?</Button>
-          <Button
-            variant="outline"
-            className="border-slate-600 text-white hover:bg-slate-800 px-6 py-3 bg-transparent"
-          >
-            My resume
-          </Button>
+  <Link
+    href="https://drive.google.com/file/d/1imMIjMYfKvCKP7uqrCV4qdwaU_aw4TWb/view?usp=drivesdk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border-slate-600 text-white hover:bg-slate-800 px-6 py-1 bg-transparent border rounded font-medium flex items-center justify-center"
+  >
+    My resume
+  </Link>
         </motion.div>
       </motion.div>
 
