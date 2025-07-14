@@ -318,12 +318,23 @@ export default function Portfolio() {
             used React.js and its libraries to allow users to track their income, expenses, and savings efficiently.
             The application will provide insights into spending habits, help users set financial goals, and enable them to create budgets to manage their finances effectively.
           </p>
-          <div className="flex gap-4">
-            <Button className="bg-orange-500 hover:bg-orange-600">View GitHub</Button>
-            <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 bg-transparent">
-              View project <ExternalLink className="w-4 h-4 ml-2" />
-            </Button>
-          </div>
+<div className="flex gap-4">
+  <a
+    href="https://github.com/shagi09/budget-tracker"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-medium flex items-center justify-center"
+  >
+    View GitHub
+  </a>
+  <Link
+    href="/projects/budget-tracker" 
+    target="_blank"
+    className="border-slate-600 text-white hover:bg-slate-800 px-6 py-3 bg-transparent border rounded font-medium flex items-center justify-center"
+  >
+    View project <ExternalLink className="w-4 h-4 ml-2" />
+  </Link>
+</div>
         </div>
         <motion.div
           className="bg-slate p-4 rounded-lg"
@@ -364,12 +375,23 @@ export default function Portfolio() {
             uses data from the incomes and expenses page to calculate the profit,vat Tax.
             uses payroll data from the payroll page to calculate payroll tax.used Chapa for payment method
           </p>
-          <div className="flex gap-4">
-            <Button className="bg-orange-500 hover:bg-orange-600">View GitHub</Button>
-            <Button variant="outline" className="border-slate-600 text-white hover:bg-slate-800 bg-transparent">
-              View project <ExternalLink className="w-4 h-4 ml-2" />
-            </Button>
-          </div>
+<div className="flex gap-4">
+  <a
+    href="https://github.com/shagi09/TaxCollector-platform" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-medium flex items-center justify-center"
+  >
+    View GitHub
+  </a>
+  <Link
+    href="/projects/taxpay" 
+    target="_blank"
+    className="border-slate-600 text-white hover:bg-slate-800 px-6 py-3 bg-transparent border rounded font-medium flex items-center justify-center"
+  >
+    View project <ExternalLink className="w-4 h-4 ml-2" />
+  </Link>
+</div>
         </div>
         <motion.div
           className="bg-slate p-4 rounded-lg"
@@ -485,10 +507,10 @@ export default function Portfolio() {
               <Link href="#" className="text-slate-400 hover:text-orange-500 transition-colors">
                 <Twitter className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-slate-400 hover:text-orange-500 transition-colors">
+              <Link href="https://github.com/shagi09" className="text-slate-400 hover:text-orange-500 transition-colors">
                 <Github className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-slate-400 hover:text-orange-500 transition-colors">
+              <Link href="https://www.linkedin.com/in/shalom-wubu-b08781373/" className="text-slate-400 hover:text-orange-500 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </Link>
             </div>

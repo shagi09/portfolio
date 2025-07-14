@@ -9,6 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/public/taxpay.mp4
+/public/budget-tracker.mp4
 
 # testing
 /coverage
